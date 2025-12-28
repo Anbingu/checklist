@@ -6,11 +6,14 @@
 .bg {
   width: 100%;
   display: block;
+   position: relative;
+  z-index: 1;
 }
 
 /* checkbox chung */
 .check {
   position: absolute;
+  z-index: 5;
 }
 
 .check span {
