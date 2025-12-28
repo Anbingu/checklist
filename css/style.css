@@ -1,11 +1,3 @@
-body {
-  background: #ffecec;
-  display: flex;
-  justify-content: center;
-  padding: 40px;
-  font-family: system-ui, sans-serif;
-}
-
 .wrapper {
   position: relative;
   width: 800px;
@@ -13,56 +5,26 @@ body {
 
 .bg {
   width: 100%;
+  display: block;
 }
 
-/* checkbox */
+/* checkbox chung */
 .check {
   position: absolute;
 }
 
-.check input {
-  display: none;
-}
-
 .check span {
-  width: 16px;
-  height: 16px;
+  width: 14px;
+  height: 14px;
   border: 2px solid #555;
   border-radius: 4px;
   display: inline-block;
   cursor: pointer;
 }
 
-.check input:checked + span {
-  background: #ff9aa2;
-}
-
-/* ==== VỊ TRÍ (ví dụ) ==== */
+/* ===== CỘT TRÁI ===== */
 /* Growth */
-.g1 { top: 230px; left: 120px; }
-.g2 { top: 260px; left: 120px; }
-.g3 { top: 290px; left: 120px; }
-.g4 { top: 320px; left: 120px; }
-
-/* Soul */
-.s1 { top: 420px; left: 130px; }
-.s2 { top: 450px; left: 130px; }
-.s3 { top: 480px; left: 130px; }
-.s4 { top: 510px; left: 130px; }
-
-/* Connection */
-.c1 { top: 230px; left: 520px; }
-.c2 { top: 260px; left: 520px; }
-.c3 { top: 290px; left: 520px; }
-.c4 { top: 320px; left: 520px; }
-
-/* Health */
-.h1 { top: 610px; left: 120px; }
-.h2 { top: 640px; left: 120px; }
-.h3 { top: 670px; left: 120px; }
-.h4 { top: 700px; left: 120px; }
-
-/* Experiences */
-.e1 { top: 610px; left: 520px; }
-.e2 { top: 640px; left: 520px; }
-.e3 { top: 670px; left: 520px; }
+.g1 { top: 235px; left: 115px; }
+.g2 { top: 265px; left: 115px; }
+.g3 { top: 295px; left: 115px; }
+.g
