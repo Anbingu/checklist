@@ -6,14 +6,11 @@
 .bg {
   width: 100%;
   display: block;
-   position: relative;
-  z-index: 1;
 }
 
 /* checkbox chung */
 .check {
   position: absolute;
-  z-index: 5;
 }
 
 .check span {
@@ -30,25 +27,54 @@
 .g1 { top: 235px; left: 115px; }
 .g2 { top: 265px; left: 115px; }
 .g3 { top: 295px; left: 115px; }
-.g
+.g4 { top: 325px; left: 115px; }
 
-/* ===== RESPONSIVE ===== */
-@media (max-width: 768px) {
-  body {
-    display: flex;
-    justify-content: center;
-  }
+/* Soul */
+.s1 { top: 420px; left: 115px; }
+.s2 { top: 450px; left: 115px; }
+.s3 { top: 480px; left: 115px; }
+.s4 { top: 510px; left: 115px; }
 
-  .wrapper {
-    transform: scale(0.85);
-    transform-origin: top center;
-  }
+/* Health */
+.h1 { top: 610px; left: 115px; }
+.h2 { top: 640px; left: 115px; }
+.h3 { top: 670px; left: 115px; }
+.h4 { top: 700px; left: 115px; }
+
+/* ===== CỘT PHẢI ===== */
+/* Connection */
+.c1 { top: 235px; left: 515px; }
+.c2 { top: 265px; left: 515px; }
+.c3 { top: 295px; left: 515px; }
+.c4 { top: 325px; left: 515px; }
+
+/* Experiences */
+.e1 { top: 610px; left: 515px; }
+.e2 { top: 640px; left: 515px; }
+.e3 { top: 670px; left: 515px; }
+
+/* đảm bảo ảnh nền ở dưới */
+.bg {
+  position: relative;
+  z-index: 1;
 }
 
-@media (max-width: 480px) {
-  .wrapper {
-    transform: scale(0.65);
-    transform-origin: top center;
-  }
+/* checkbox luôn ở trên */
+.check {
+  position: absolute;
+  z-index: 10;
 }
 
+/* phần tương tác visual */
+.check span {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #555;
+  border-radius: 4px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.check input:checked + span {
+  background: #ff9aa2;
+}
