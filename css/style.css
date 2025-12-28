@@ -28,3 +28,24 @@
 .g2 { top: 265px; left: 115px; }
 .g3 { top: 295px; left: 115px; }
 .g
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  body {
+    display: flex;
+    justify-content: center;
+  }
+
+  .wrapper {
+    transform: scale(0.85);
+    transform-origin: top center;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    transform: scale(0.65);
+    transform-origin: top center;
+  }
+}
+
